@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackaton</title>
-    <link rel="stylesheet" href="css/scrolling-nav.css">
+    <!-- <link rel="stylesheet" href="css/scrolling-nav.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -15,68 +15,25 @@
 </head>
 <body>
     <div class="main">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#">Quality Education</a>
-                 <div class="logo">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-              <img src="images/logoLearn.png" alt="education logo">
-             
+        <nav>
+            <div class="logo">
+                <img src="images/logoLearn.png" alt="education logo">
             </div>
-            <!-- <div class="title">
+            <div class="title">
                 <h4 style="font-family: Lobster Two, cursive;">quality education</h4>
-            </div> -->
-            <div class="collapse navbar-collapse nav-links" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#zoning">Zoning</a>
-                    </li>
-                    <li class="nav-item">
-                        <!-- <a href="#">No Child Left Behind</a> -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="contact">Contact</a>
-                    </li>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Zoning</a></li>
+                    <li><a href="#">No Child Left Behind</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <!-- </div>   -->
         </nav>
-<!-- NAVBAR -->
-       <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-            <div class="container">
-              <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div> -->
-          </nav> 
-          <!-- NAVBAR -->
-
         <div class="section">
             <h1>Homepage</h1>
         </div>
-        <!-- CAROUSELSTARTS -->
         <div class="information">
             <div class="overlay"></div>
             <img src="images/books.jpg" class="book" alt="openBook">
@@ -171,17 +128,38 @@
     <div class="container1">
         <div class="row">
             <div class="col-sm">
-                <p><i style="font-size:20px" class="fa">&#xf10d;</i> They create barriers to expanding high-quality charter schools: Lack of access to suitable facilities continues to be a major obstacle to expanding high-quality charter schools. Zoning rules, which can limit the locations where charters can operate, play a role in this. Joe Williams wrote a great Ed Next article awhile ago that addressed some of the ways zoning laws are one of a host of state and local policies that can be used to block charter schools. I know of a charter school in D.C. that had to go through a years-long battle over whether or not zoning laws preclude them from opening a school in a space they own (and a neighborhood where there is a desperate need for the services they want to offer!). If you can about expanding the supply of quality charter schools in urban and suburban communities, you should care about zoning.</p>
+                <p><i style="font-size:20px" class="fa">&#xf10d;</i> They create barriers to expanding high-quality charter schools: Lack of access to suitable
+                     facilities continues to be a major obstacle to expanding high-quality charter schools. Zoning rules, which can limit the locations where 
+                     charters can operate, play a role in this. Joe Williams wrote a great Ed Next article awhile ago that addressed some of the ways zoning 
+                     laws are one of a host of state and local policies that can be used to block charter schools. I know of a charter school in D.C. that had
+                      to go through a years-long battle over whether or not zoning laws preclude them from opening a school in a space they own (and a neighborhood
+                       where there is a desperate need for the services they want to offer!). If you can about expanding the supply of quality charter schools in 
+                       urban and suburban communities, you should care about zoning.</p>
+            </div>
+
+            <div class="col-sm">
+                <p><i style="font-size:20px" class="fa">&#xf10d;</i> They exacerbate socioeconomic segregation: Current patterns of residential segregation, 
+                    by both race and income, have produced and educational system that is highly
+                     segregated by race and income, too, despite the abolition of de jure racial segregation of schools--and residential patterns create real
+                      limits on strategies to increase socio-economic school integration. But it's important to recognize that current patterns of residential 
+                      segregation are not a purely natural phenomenon we have no control over; rather they are the deliberate product of 50 years worth of land use,
+                       transportation and housing policy decisions. Zoning policies, such as density limits, requirements for homes to have certain features/amenities,
+                        and prohibitions on accessory dwellings all conspire to exacerbate segregation by making the types of dwellings low-income families can afford illegal.</p>
             </div>
             <div class="col-sm">
-                <p><i style="font-size:20px" class="fa">&#xf10d;</i> They exacerbate socioeconomic segregation: Current patterns of residential segregation, by both race and income, have produced and educational system that is highly segregated by race and income, too, despite the abolition of de jure racial segregation of schools--and residential patterns create real limits on strategies to increase socio-economic school integration. But it's important to recognize that current patterns of residential segregation are not a purely natural phenomenon we have no control over; rather they are the deliberate product of 50 years worth of land use, transportation and housing policy decisions. Zoning policies, such as density limits, requirements for homes to have certain features/amenities, and prohibitions on accessory dwellings all conspire to exacerbate segregation by making the types of dwellings low-income families can afford illegal.</p>
-            </div>
-            <div class="col-sm">
-                <p><i style="font-size:20px" class="fa">&#xf10d;</i> They limit low-income families' school choices: The same policies that exacerbate residential segregation also prevent low-income families from choosing better schools through residential choice. It's become common-place in ed reform circles to bemoan the fact that "in America today the quality of your school is determined by your ZIP code," or to say that middle class families have school choices based on where they live and poor people don't. But accepting that poor people have to live in crappy neighborhoods is no less weird or immoral than accepting that their children have to go to crappy schools. Sure, some communities are always going to be more desirable places to live than others, that will be reflected in their housing prices, and there are going to be some places where poor (and even middle class people) can't afford to live. But housing costs are determined based on a mix of factors: the size and quality of the dwelling itself; local neighborhood features (ie, safety), ammenities (ie, good schools, grocery stores) and nuisances (ie, proximity to dumps or loud noise), and proximity to employment centers, among other things. And zoning policies often have the effect of making it illegal for families to trade-off a smaller/less nice home for an area with better schools or other amenities, by blocking the existence of such homes.</p>
+                <p><i style="font-size:20px" class="fa">&#xf10d;</i> They limit low-income families' school choices: The same policies that exacerbate residential segregation
+                     also prevent low-income families from choosing better schools through residential choice. It's become common-place in ed reform circles to bemoan the fact 
+                     that "in America today the quality of your school is determined by your ZIP code," or to say that middle class families have school choices based on where 
+                     they live and poor people don't. But accepting that poor people have to live in crappy neighborhoods is no less weird or immoral than accepting that their 
+                     children have to go to crappy schools. Sure, some communities are always going to be more desirable places to live than others, that will be reflected in 
+                     their housing prices, and there are going to be some places where poor (and even middle class people) can't afford to live. But housing costs are determined 
+                     based on a mix of factors: the size and quality of the dwelling itself; local neighborhood features (ie, safety), ammenities (ie, good schools, grocery stores)
+                      and nuisances (ie, proximity to dumps or loud noise), and proximity to employment centers, among other things. And zoning policies often have the effect of
+                       making it illegal for families to trade-off a smaller/less nice home for an area with better schools or other amenities, by blocking the existence of such homes.</p>
             </div>
         </div>
     </div>
-
+</div>
     <h1 style="color: black; text-align: center;">Zoning Disclosure</h1>
     <br>
     <br>
@@ -211,10 +189,5 @@
     </script>
     <style>[class*="fa fa-"]{font-family: FontAwesome !important;}</style>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-
-
-    </div>
-    <script src="js/scroll.js"></script>
 </body>
 </html>
