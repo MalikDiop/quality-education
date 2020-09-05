@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackaton</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/scrolling-nav.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -14,26 +15,68 @@
 </head>
 <body>
     <div class="main">
-        <nav>
-            <div class="logo">
-                <img src="images/logoLearn.png" alt="education logo">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#">Quality Education</a>
+                 <div class="logo">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              <img src="images/logoLearn.png" alt="education logo">
+             
             </div>
-            <div class="title">
+            <!-- <div class="title">
                 <h4 style="font-family: Lobster Two, cursive;">quality education</h4>
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Zoning</a></li>
-                    <li><a href="#">No Child Left Behind</a></li>
-                    <li><a href="#">Contact</a></li>
+            </div> -->
+            <div class="collapse navbar-collapse nav-links" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#zoning">Zoning</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a href="#">No Child Left Behind</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="contact">Contact</a>
+                    </li>
                 </ul>
             </div>
+            <!-- </div>   -->
         </nav>
+<!-- NAVBAR -->
+       <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div> -->
+          </nav> 
+          <!-- NAVBAR -->
+
         <div class="section">
             <h1>Homepage</h1>
-
         </div>
+        <!-- CAROUSELSTARTS -->
         <div class="information">
             <div class="overlay"></div>
             <img src="images/books.jpg" class="book" alt="openBook">
@@ -68,6 +111,7 @@
                 </div>
             </div>
         </div>
+        <!-- CAROUSEL FINISHED -->
         <div class="controls">
             <img src="images/uparrow.png" id="upBtn" alt="^">
             <h3>Features</h3>
@@ -171,6 +215,6 @@
 
 
     </div>
-    
+    <script src="js/scroll.js"></script>
 </body>
 </html>
