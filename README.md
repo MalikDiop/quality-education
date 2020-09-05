@@ -42,3 +42,4 @@ if ( zipcode < 30000) && (income > 100000) || (zipcode > 30000) && (income > 100
 # THANK YOU GOODWILL & TECHBRIDGE FOR THE OPPORTUNITY!		
 
 ![](images/TechBridgeLogo.png)
+![](images/zoningNode.gif)
