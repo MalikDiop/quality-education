@@ -15,6 +15,7 @@
     background: linear-gradient(to right,#8ecdff, #9c27b0);
     margin-bottom: 150px;
 }
+
 nav{
     width: 100%;
     position: sticky;
@@ -229,7 +230,8 @@ div .section{
     background: rgba(128, 128, 128, 0.267);
 }
 main{
-    background: rgba(128, 128, 128, 0.452);
+    font-size: 20px;
+    background: #8ecdff;
     color: black;
     margin: auto;
     padding: 50px 60px;
@@ -238,11 +240,12 @@ main{
     /* background: cadetblue; */
 }
 .col-sm{
+    font-size: 20px;
     border: 2px solid white;
     border-radius: 15px;
     margin: 10px;
     padding: 20px;
-    background-color: rgb(168, 159, 159);
+    background-color:#9c27b0;
     color: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
