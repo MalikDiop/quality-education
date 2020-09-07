@@ -1,4 +1,4 @@
-![](images/logoLearn.png)
+![](images/logolearn.png)
 
 # quality education
 ## Hacking with Purpose
@@ -41,5 +41,5 @@ if ( zipcode < 30000) && (income > 100000) || (zipcode > 30000) && (income > 100
 ### “A good education is essential to a child’s economic future, and where you can afford to live has a lot to do with whether your child gets that education,” Rothwell said. “In most metro areas, the only way to attend high-scoring schools is to live in an expensive neighborhood. This makes it very difficult for children born at the bottom to rise to the top.”								
 # THANK YOU GOODWILL & TECHBRIDGE FOR THE OPPORTUNITY!		
 
-![](images/TechBridgeLogo.png)
-![](images/zoningNode.gif)
+![](images/techbridgelogo.png)
+![](images/zoningnode.gif)
