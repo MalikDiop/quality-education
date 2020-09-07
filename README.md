@@ -1,6 +1,6 @@
 ![](images/logoLearn.png)
 
-# #4 quality education
+# quality education
 ## Hacking with Purpose
 
 
