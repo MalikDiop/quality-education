@@ -29,16 +29,19 @@ inquirer
             name: "income"
         }
     ])
-    // .then(function(response) {
-
-    //     if (response.confirm === response.password) {
-    //         console.log("Password Successfully Enter!");
-    //     }
-    //     else {
-    //         console.log("You forgot your password already?!");
-    //     }        
-    // }) 
     .then(function(response) {
+
+        if (response.confirm === response.password) {
+            console.log("Password Successfully Enter!");
+            fs.writeFileSync('userPassword.txt', JSON.stringify(response.password), function(err){
+
+            });
+        }
+        else {
+            console.log("You forgot your password already?!");           
+        }        
+    
+    
 
         if ((response.zipcode <= 30000 && response.income < 100000) || (response.zipcode > 30000 && response.income < 100000)) {
             console.log("Sorry due to the information you enter, your kids will go to under privilege school.");
@@ -46,5 +49,5 @@ inquirer
         else if ((response.zipcode <= 30000 && response.income > 100000) || (response.zipcode > 30000 && response.income >= 100000)) {
             console.log("Congrats! Your kids will attend the privilege school.");
         }
-    });
+    })
 
