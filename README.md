@@ -42,5 +42,5 @@ if ( zipcode < 30000) && (income > 100000) || (zipcode > 30000) && (income > 100
 ### “A good education is essential to a child’s economic future, and where you can afford to live has a lot to do with whether your child gets that education,” Rothwell said. “In most metro areas, the only way to attend high-scoring schools is to live in an expensive neighborhood. This makes it very difficult for children born at the bottom to rise to the top.”								
 # THANK YOU GOODWILL & TECHBRIDGE FOR THE OPPORTUNITY!		
 
-![](images/techbridgelogo.png)
-![](images/zoningnode.gif)
+![techbridgelogo](https://user-images.githubusercontent.com/66703987/92420042-0eb1fa00-f13f-11ea-8202-2f949aec6565.png)
+![zoningnode](https://user-images.githubusercontent.com/66703987/92420046-14a7db00-f13f-11ea-809a-e9d057f7843b.gif)
